@@ -1,0 +1,21 @@
+html{font-size: 24px;} /*determina el valor deL REM*/
+h1{font-size: 16px;} 
+h2{font-size: 1rem;} /*la cantidad de rems que esta determinado por el valor determinado anteriormente de html*/
+h3{font-size: 1.75rem;} 
+h4{font-size: 1.5rem;}
+h5{font-size: 1.25rem;}
+h6{font-size: 1.05rem;}
+
+.contenedor{  /*Indica el tamaño y color de las etiquetas*/
+width: 70%;/*determina el ancho*/
+height: 400px;/*determina el alto*/
+background-color: aqua;/*color de fondo*/
+margin: 30px auto;/*determina el margen*/
+}
+
+
+.hijo{ /*El hijo esta adentro del padre y se modifica adentro*/
+    width: 70vw; 
+    height: 50vh; 
+    background-color: blueviolet; 
+    margin: 30px auto;}
